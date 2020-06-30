@@ -8,7 +8,7 @@ export default function App() {
   const endPoint = "https://api.openweathermap.org/data/2.5/forecast?lang=pt_br&units=metric&q=";
   const endPointSol = "https://api.openweathermap.org/data/2.5/onecall?lang=pt_br&units=metric&";  //lat=-23.2642&lon=-47.2992&appid=1e7ae962cdf26b7e0ef5f66b9b347d02"
 
-  const apiKey = "1e7ae962cdf26b7e0ef5f66b9b347d02"; // https://openweathermap.org/forecast5
+  const apiKey = ""; // https://openweathermap.org/forecast5
 
   const [cidade, setCidade] = useState('');
   const [sol, setSol] = useState([]);
